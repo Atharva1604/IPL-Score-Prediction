@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IPL Score Predictor</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://kit.fontawesome.com/f13b0bc903.js" crossorigin="anonymous"></script>
+    </head>
+  <body>
+      <h1>IPL Batting Score Predictor 🏆</h1>
+      <div class = "register">  
+      <form id="register" action="{{ url_for('predict') }}"  method="post">
+          
+          <label> Batting Team: </label><br>
+          <select name="batting-team" style="font-size:10pt;">
+                        <option value="none">--- Select a Batting team ---</option>
+                        <option value="Mumbai Indians">Mumbai Indians</option>
+                        <option value="Kolkata Knight Riders">Kolkata Knight Riders</option>
+                        <option value="Chennai Super Kings">Chennai Super Kings</option>
+                        <option value="Rajasthan Royals">Rajasthan Royals</option>
+                        <option value="Kings XI Punjab">Kings XI Punjab</option>
+                        <option value="Royal Challengers Bangalore">Royal Challengers Bangalore</option>
+                        <option value="Delhi Daredevils">Delhi Daredevils</option>
+                        <option value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
+                    </select><br><br>
+          <label> Bowling Team: </label><br>
+          <select  name="bowling-team" style="font-size:10pt;">
+                        <option value="none">--- Select a Bowling team ---</option>
+                        <option value="Mumbai Indians">Mumbai Indians</option>
+                        <option value="Kolkata Knight Riders">Kolkata Knight Riders</option>
+                        <option value="Chennai Super Kings">Chennai Super Kings</option>
+                        <option value="Rajasthan Royals">Rajasthan Royals</option>
+                        <option value="Kings XI Punjab">Kings XI Punjab</option>
+                        <option value="Royal Challengers Bangalore">Royal Challengers Bangalore</option>
+                        <option value="Delhi Daredevils">Delhi Daredevils</option>
+                        <option value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
+                    </select><br><br>
+          <label> Venue: </label><br>
+          <select name="venue" style="font-size:10pt;">
+                        <option value="none">--- Select the Stadium ---</option>
+                        <option value="Eden Gardens">Eden Gardens</option>
+                        <option value="Feroz Shah Kotla">Feroz Shah Kotla</option>
+                        <option value="M Chinnaswamy Stadium">M Chinnaswamy Stadium</option>
+                        <option value="MA Chidambaram Stadium, Chepauk">MA Chidambaram Stadium</option>
+                        <option value="Sawai Mansingh Stadium">Sawai Mansingh Stadium</option>
+                        <option value="Punjab Cricket Association Stadium, Mohali">Punjab Cricket Association Stadium</option>
+                        <option value="Rajiv Gandhi International Stadium, Uppal">Rajiv Gandhi International Stadium</option>
+                        <option value="Wankhede Stadium">Wankhede Stadium</option>
+                    </select><br><br>
+            
+          <label> Overs Bowled: </label><br>
+          <input class="form-input" type="text" name="overs" placeholder="Overs (>= 5.0) Eg. 7.2"><br><br>
+          <label> Runs Scored: </label><br>
+          <input class="form-input" type="text" name="runs" placeholder="Eg. 64"><br><br>
+          <label> Wickets Fallen: </label><br>
+          <input class="form-input" type="text" name="wickets" placeholder="Eg. 4"><br><br>
+          <label> Runs Scored in previous 5 Overs: </label><br>
+          <input class="form-input" type="text" name="runs_in_prev_5" placeholder="Eg. 42"><br><br>
+          <label> Wickets taken in previous 5 Overs: </label><br>
+          <input class="form-input" type="text" name="wickets_in_prev_5" placeholder="Eg. 3"><br><br>
+
+          
+          <input type="submit" value="Predict Score" id ="sub">
+      </form>
+      </div>
+      
+      </body>
+</html>
