@@ -3,6 +3,8 @@
 <head>
   <title>IPL Score Predictor</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='ipl-favicon.ico') }}">
+        
     <script src="https://kit.fontawesome.com/f13b0bc903.js" crossorigin="anonymous"></script>
     </head>
 
@@ -10,16 +12,19 @@
         <h1>IPL Batting Score Predictor 🏆</h1> 
 
 			<!-- Result -->
-			<div class="register">
+			<div class="register" >
                 <center>
-                <p>The final predicted score (range): {{ lower_limit }} to {{ upper_limit }}</p><br><br>
+                <p style="font-size:30px;">The final predicted score (range):<br> {{ lower_limit }} to {{ upper_limit }}</p><br><br>
+                </center>
                 
-			    <p>Made by Atharva Patil.</p><br>
+		     </div>
+        <br><br><br>
+              <center>
+                    <p style="font-size:20px;">Made by Atharva Patil.</p><br>
                 
-                <a href="https://github.com/Atharva1604"><i class="fab fa-github fa-lg contact-icon"></i></a>
+                <a href="https://github.com/Atharva1604"><i class="fab fa-github fa-lg contact-icon"></i></a>&nbsp;&nbsp;
                <a href="https://www.linkedin.com/in/atharva-patil-a79a84176/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
            </center>
 
-        </div>
-    </body>
+            </body>
 </html>
