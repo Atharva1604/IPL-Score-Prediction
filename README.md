@@ -5,8 +5,8 @@
 • This repository consists of files required to deploy a ___Machine Learning Web Application___ created with ___Flask___  and deployed on ___Heroku___ platform.
 
 • A glimpse of the web app:
-![UI-1](readme_resources/UI-1.png)
-![UI-2](readme_resources/UI-2.png)
+![GitHub Logo](readme_resources/UI-1.png)
+![GitHub Logo](readme_resources/UI-2.png)
 
 • If you want to view the deployed model, click on the following link:<br />
 Deployed at: _https://ipl-batting-score-predict.herokuapp.com_
