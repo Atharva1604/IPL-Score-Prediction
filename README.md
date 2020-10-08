@@ -11,7 +11,7 @@ ___Home Page___
 
 
 ___Prediction Page___
-![alt text](https://github.com/Atharva1604/IPL-Score-Prediction/blob/main/readme_resources/UX-2.PNG)
+![alt text](https://github.com/Atharva1604/IPL-Score-Prediction/blob/main/readme_resources/UX-2.mp4)
 
 • If you want to view the deployed model, click on the following link:<br />
 Deployed at: _https://ipl-batting-score-predict.herokuapp.com_
