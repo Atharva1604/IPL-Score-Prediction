@@ -6,6 +6,7 @@
 
 • A glimpse of the web app:
 
+![Home Page](/readme_resources/UI-1.png)
 ![Home page](readme_resources/UI-1.png)
 ![Prediction page](readme_resources/UI-2.png)
 
