@@ -6,13 +6,16 @@
 
 • A glimpse of the web app:
 
-___Home Page___
+<p align="center">___Home Page___</p>
 ![alt text](https://github.com/Atharva1604/IPL-Score-Prediction/blob/main/readme_resources/UX-1.PNG)
 
 
-___Prediction Page___
-![alt text](https://github.com/Atharva1604/IPL-Score-Prediction/blob/main/readme_resources/UX-2.gif)
+<p align="center">
+ ___Prediction Page___
 
+
+  <img width="460" height="300" src="https://github.com/Atharva1604/IPL-Score-Prediction/blob/main/readme_resources/UX-2.gif">
+</p>
 • If you want to view the deployed model, click on the following link:<br />
 Deployed at: _https://ipl-batting-score-predict.herokuapp.com_
 
