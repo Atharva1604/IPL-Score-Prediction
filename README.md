@@ -6,14 +6,14 @@
 
 • A glimpse of the web app:
 
-<p align="center">___Home Page___</p>
+___Home Page___
 ![alt text](https://github.com/Atharva1604/IPL-Score-Prediction/blob/main/readme_resources/UX-1.PNG)
 
 
-<p align="center">
+
  ___Prediction Page___
 
-
+<p align="center">
   <img width="460" height="300" src="https://github.com/Atharva1604/IPL-Score-Prediction/blob/main/readme_resources/UX-2.gif">
 </p>
 • If you want to view the deployed model, click on the following link:<br />
