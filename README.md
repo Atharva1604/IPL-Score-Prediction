@@ -6,7 +6,11 @@
 
 • A glimpse of the web app:
 
+___Home Page___
 ![alt text](https://github.com/Atharva1604/IPL-Score-Prediction/blob/main/readme_resources/UX-1.PNG)
+
+
+___Prediction Page___
 ![alt text](https://github.com/Atharva1604/IPL-Score-Prediction/blob/main/readme_resources/UX-2.PNG)
 
 • If you want to view the deployed model, click on the following link:<br />
