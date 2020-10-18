@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 
 # Load the Linear Regression model
-filename = 'Batting-score-LR-model.pkl'
+filename = 'Batting-score-LassoReg-model.pkl'
 regressor = pickle.load(open(filename, 'rb'))
 
 app = Flask(__name__)
